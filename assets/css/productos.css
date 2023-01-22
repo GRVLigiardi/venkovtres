@@ -1,0 +1,57 @@
+.prodstylepage {
+    background-image: url("/images/productos2.jpg");
+    background-size:cover;
+}
+
+.TitleProd2{
+  font-size: x-large;
+  text-align: center;
+  color: #fff;
+}
+
+.TitleProd {
+   font-size: 9px;
+    text-align: center;
+    color: #fff;
+}
+
+ /* Grid container */
+.grid-container {
+  max-width: 1200px;
+  margin: 0 auto; /* center the container */
+  display: grid;
+  gap: 1rem; /* add a gap of 1rem between items */
+  grid-template-columns: repeat(3, 1fr); /* create 4 columns with 1 fraction unit each */
+}
+
+@media (max-width: 1200px) {
+  .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Grid items */
+.grid-item {
+  position: relative;
+  overflow: hidden;
+} 
+
+/* Add an image to the grid items */
+.grid-item img {
+  width: 100%; /* make the image the full width of the grid item */
+  height:auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* make the image cover the entire grid item */
+}
+
