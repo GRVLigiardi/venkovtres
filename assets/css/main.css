@@ -18,7 +18,7 @@ body{
 
   
   .container{
-	margin-top: 100px;
+	margin-top: 80px;
   }
   
   .text-center {
@@ -29,10 +29,10 @@ body{
   .rainbow{
 	box-shadow: white;
 	background-color: none;
-	border-radius: 60px;  
+	border-radius: 80%;  
 	color: #fff;
 	cursor: pointer;
-	padding: 8px 16px;
+	padding: 5px 10px;
 	
   }
     
@@ -2540,17 +2540,17 @@ input, select, textarea {
 	text-align: center;
 	}
 	.submit_wrapper input {
-	text-align: center;
-	display: inline-block;
+	text-align:center;
+	display:inline;
 	width: 40%;
 	height: 50px;
-	margin-top: 1em;
-	margin-bottom: 6px;
+	margin-top: 0%;
+	margin-bottom: 10%;
 	cursor: pointer;
 	background: #b267e0;
 	color: white;
 	font-family: Oswald ,sans-serif;
-	font-size: 1em;
+	font-size: 90%;
 	border: none;
 	-webkit-box-shadow: 1px 1px 0 0 #683786,2px 2px 0 0 #683786,3px 3px 0 0 #683786;
 	box-shadow: 1px 1px 0 0 #683786,2px 2px 0 0 #683786,3px 3px 0 0 #683786;
@@ -2581,20 +2581,23 @@ input, select, textarea {
 	}
 
 	.float{
-		position:fixed;
-		width:60px;
-		height:60px;
-		bottom:40px;
-		right:40px;
-		background-color:#25d366;
-		color:#FFF;
-		border-radius:50px;
-		text-align:center;
-	  font-size:30px;
-		box-shadow: 2px 2px 3px #999;
-	  z-index:100;
+		position: fixed;
+top: 7%;
+right: 30px;
+width: 30px;
+height: 30px;
+background-color: #25d366;
+color: #FFF;
+border-radius: 50px;
+text-align: center;
+font-size: 30px;
+box-shadow: 2px 2px 3px #999;
+z-index: 100;
 	}
 	
 	.my-float{
-		margin-top:16px;
+		top: 5%;
+right: 30px;
+width: 30px;
+height: 30px;
 	}
